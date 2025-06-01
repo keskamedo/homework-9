@@ -1,0 +1,154 @@
+body{
+  max-width: 1500px;
+}
+
+header {
+  padding: 24px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 52px;
+}
+
+a {
+  text-transform: uppercase;
+  width: 87px;
+  height: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+  font-family: "Helvetica";
+}
+
+.logo{
+  width: 33px;
+  height: 42px;
+} 
+
+.container {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.H1{
+  width: 625px;
+  height: 91px;
+  font-size: 79px;
+  font-weight: 700;
+  margin-bottom: 31px;
+  font-family: "Helvetica";
+}
+
+.H2{
+  width: 333px;
+  height: 22px;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Helvetica";
+}
+
+.H3{
+  text-transform: uppercase;
+  width: 89px;
+  height: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+  margin-bottom: 9px;
+  font-family: "Helvetica";
+}
+
+.txt-h1{
+  width: 214px;
+  height: 32px;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 37px;
+  font-family: "Helvetica";
+}
+
+.txt-h2{
+  width: 235px;
+  height: 115px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #636060;
+  font-family: "Helvetica";
+}
+
+.city {
+    background-image: url("../images/city.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 606px;
+    position: relative;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-family: "Helvetica";
+}
+
+
+.container-section{
+  padding: 84px 100px;
+  display: flex;
+  gap: 84px;
+}
+
+.gvfren{
+  display: flex;
+  gap: 33px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images {
+    width: 286px;
+    height: 195px;
+    margin-bottom: 23px;
+
+}
+
+.headline {
+    width: 259px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 15.5px;
+    font-family: "Helvetica";
+}
+
+.text {
+    width: 286px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #636060;
+    font-family: "Helvetica";
+}
+
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
